@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Timer/img/ian-schneider-PAykYb-8Er8-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    object-fit: cover;
+}
+
+.newYearsTitle {
+    font-size: 7rem;
+    color: #FFF;
+    margin-bottom: -2rem;
+}
+
+.timer__container {
+    color: #FFF;
+    padding-bottom: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.days, .hours, .minutes, .second {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.days__title, .hours__title, .minutes__title, .seconds__title {
+    font-size: 2rem;
+    
+}
+
+.days__counter, .hours__counter, .seconds__counter, .minutes__counter {
+    font-size: 5rem;
+}
+
+
+
+
+
+// timer container
+.timer__container {
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
